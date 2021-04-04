@@ -23,15 +23,27 @@ nav {
 
 .book-lits {
   padding: 30px;
+}
+.song-list {
+  padding: 30px;
+}
 
-  & > ul {
-    font-size: 2rem;
-    & > li {
-      list-style: none;
-      padding: 20px;
-      margin: 10px;
-      border-radius: 50px;
-      text-transform: capitalize;
-    }
+.user-info {
+  min-width: 100px;
+  text-align: right;
+}
+
+.with-hooks {
+  padding: 20px;
+  margin-top: 50px;
+}
+ul {
+  font-size: 2rem;
+  & > li {
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
   }
 }

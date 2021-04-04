@@ -14,15 +14,15 @@ class Navbar extends Component {
               const theme = isLightTheme ? light : dark;
               return (
                 <nav style={{ background: theme.ui, color: theme.syntax }}>
-                  <h1>Context App</h1>
-                  <div className="user-info" onClick={toggleAuth}>
-                    {isAuthenticated ? "Logg in" : "Logged out"}
-                  </div>
+                  <h3>Context App</h3>
                   <ul>
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
                   </ul>
+                  <div className="user-info" onClick={toggleAuth}>
+                    {isAuthenticated ? "Logg in" : "Logged out"}
+                  </div>
                 </nav>
               );
             }}
