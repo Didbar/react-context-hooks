@@ -1,0 +1,37 @@
+.App {
+  font-size: 1.6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  user-select: none;
+
+  & > ul {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    & > li {
+      list-style: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.book-lits {
+  padding: 30px;
+
+  & > ul {
+    font-size: 2rem;
+    & > li {
+      list-style: none;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 50px;
+      text-transform: capitalize;
+    }
+  }
+}
